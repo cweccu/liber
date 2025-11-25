@@ -1,0 +1,26 @@
+{
+  "name": "liber",
+  "version": "1.0.0",
+  "description": "An intuitive ebook shop",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cweccu/liber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cweccu/liber/issues"
+  },
+  "homepage": "https://github.com/cweccu/liber#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
