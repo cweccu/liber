@@ -8,9 +8,9 @@ const app = express();
 const projectRoot = process.cwd();
 
 app.set("view engine", "ejs");
-app.set("views", path.join(projectRoot, "res/views"));
+app.set("views", path.join(projectRoot, "src/views"));
 
-app.use(express.static(path.join(projectRoot, "res")));
+app.use(express.static(path.join(projectRoot, "public")));
 app.use("/", viewRouter);
 app.use("/rest", restRouter);
 
